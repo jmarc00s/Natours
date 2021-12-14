@@ -4,6 +4,10 @@
 
 .u-mb-big {
   margin-bottom: 8rem;
+
+  @include respond(tab-port) {
+    margin-bottom: 5rem !important;
+  }
 }
 
 .u-mb-small {
@@ -12,10 +16,18 @@
 
 .u-mb-medium {
   margin-bottom: 4rem !important;
+
+  @include respond(tab-port) {
+    margin-bottom: 3rem !important;
+  }
 }
 
 .u-mt-big {
   margin-top: 8rem;
+
+  @include respond(tab-port) {
+    margin-top: 5rem !important;
+  }
 }
 
 .u-mt-huge {
